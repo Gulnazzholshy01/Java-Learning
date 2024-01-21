@@ -5,11 +5,16 @@ public class Loop {
         int x;
         int y = 5;
 
-        //Initialize x
+        // Initialize x
         x = 0; //Initialize control variable 
         while (x <= y) { //Variable tested or expession 
             System.out.println(x);
             x++; //Incrementing , alter control value
+        }
+        
+        //For Loop
+        for(x=0; x <= y; x++) {
+            System.out.println(x);           
         }
     }
 }

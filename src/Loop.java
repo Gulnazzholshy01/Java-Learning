@@ -6,10 +6,10 @@ public class Loop {
         int y = 5;
 
         //Initialize x
-        x = 0;
-        while (x <= y) {
+        x = 0; //Initialize control variable 
+        while (x <= y) { //Variable tested or expession 
             System.out.println(x);
-            x++;
+            x++; //Incrementing , alter control value
         }
     }
 }

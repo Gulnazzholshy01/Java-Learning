@@ -9,6 +9,7 @@ public class fish {
         
         while(x < candyBars.length){
             //Decision structure 
+            System.out.println(candyBars[x]);
             if(candyBars[x].equalsIgnoreCase("fish")){
                 isFound = true;
             }

@@ -13,38 +13,39 @@
 // 	}
 // }
 
-// import java.util.Scanner;
-// public class quizCheck
-// {
-// 	public static void main(String[] args) {
-// 		String name, level;
-// 		Scanner input = new Scanner(System.in);
-// 		System.out.print(getName(input));
-// 	}
-// 	public static String getName(Scanner scn){
-// 		String name; //Local variable
-// 		System.out.print("Enter Name: ");
-// 		name = scn.nextLine();
-
-// 		System.out.print("First Name: ");
-// 		return name;
-// 	}
-// }
-
+import java.util.Scanner;
 public class quizCheck
 {
 	public static void main(String[] args) {
-		int total = calcNumbers(2, 3); 
-		System.out.print("Total: " + total );
-		
-	}
-	public static int calcNumbers(int num1, int num2){ 
-		int sum = num1 + num2;
-		return sum;
-		
-	}
-	public static int calcNumbers(int aNumber){ 
-		return aNumber + 2;
+		String name;
+		Scanner input = new Scanner(System.in);
+		System.out.print(getName(input));
 	}
 
+	public static String getName(Scanner scn){
+		String name; //Local variable
+
+		System.out.print("Enter Name: ");
+		name = scn.nextLine();
+		System.out.print("First Name: ");
+		return name;
+	}
 }
+
+// public class quizCheck
+// {
+// 	public static void main(String[] args) {
+// 		int total = calcNumbers(2, 3); 
+// 		System.out.print("Total: " + total );
+		
+// 	}
+// 	public static int calcNumbers(int num1, int num2){ 
+// 		int sum = num1 + num2;
+// 		return sum;
+		
+// 	}
+// 	public static int calcNumbers(int aNumber){ 
+// 		return aNumber + 2;
+// 	}
+
+// }
